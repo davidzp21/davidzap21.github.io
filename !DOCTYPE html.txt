@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EcoTrade 🌱</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { font-family: 'Poppins', sans-serif; scroll-behavior: smooth; }
+    .color1 { color: #008000; }
+    .color2 { color: #1cde07; }
+    .color3 { background-color: #f1f1f1; }
+    .color4 { background-color: #ff0f0e; }
+    .color5 { background-color: #ffffff; }
+  </style>
+</head>
+<body class="color5 text-gray-800">
+
+  <!-- Nav -->
+  <nav class="fixed top-0 left-0 right-0 bg-white shadow z-50">
+    <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
+      <span class="text-xl font-bold color1">EcoTrade</span>
+      <ul class="flex gap-4 text-sm font-medium">
+        <li><a href="#inicio" class="hover:text-green-700">Inicio</a></li>
+        <li><a href="#problematica" class="hover:text-green-700">Problemática</a></li>
+        <li><a href="#usuario" class="hover:text-green-700">Usuario</a></li>
+        <li><a href="#fundamentacion" class="hover:text-green-700">Fundamentación</a></li>
+        <li><a href="#objetivos" class="hover:text-green-700">Objetivos</a></li>
+        <li><a href="#cronograma" class="hover:text-green-700">Cronograma</a></li>
+        <li><a href="#impacto" class="hover:text-green-700">Impacto</a></li>
+        <li><a href="#evidencia" class="hover:text-green-700">Evidencia</a></li>
+        <li><a href="#contacto" class="hover:text-green-700">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Inicio -->
+  <section id="inicio" class="pt-28 pb-16 px-6 text-center">
+    <h1 class="text-4xl font-bold color1">🌱 Proyecto EcoTrade</h1>
+    <p class="mt-4 text-lg">Intercambio sostenible de productos en la Universidad Central para reducir residuos y fomentar la conciencia ambiental.</p>
+    <button class="mt-6 px-6 py-2 text-white font-semibold rounded-xl shadow-lg color4 hover:opacity-80 transition">
+      ¡Súmate a la iniciativa!
+    </button>
+  </section>
+
+  <!-- Problemática -->
+  <section id="problematica" class="color3 py-16 px-6">
+    <h2 class="text-3xl font-semibold text-center color1 mb-8">🌪️ Problemática</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div class="bg-white p-6 rounded-xl shadow">El consumo excesivo y la producción insostenible afectan el medio ambiente y generan residuos innecesarios.</div>
+      <div class="bg-white p-6 rounded-xl shadow">Se requiere una acción local desde instituciones como la Universidad Central para cambiar esta realidad.</div>
+    </div>
+  </section>
+
+  <!-- Usuario Objetivo -->
+  <section id="usuario" class="py-16 px-6">
+    <h2 class="text-3xl font-semibold text-center color1 mb-8">🎓 Usuario Objetivo</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="bg-white p-6 rounded-xl shadow">Estudiantes comprometidos con el medio ambiente.</div>
+      <div class="bg-white p-6 rounded-xl shadow">Miembros de la comunidad universitaria con conciencia ecológica.</div>
+      <div class="bg-white p-6 rounded-xl shadow">Personas dispuestas a reutilizar productos en buen estado.</div>
+    </div>
+  </section>
+
+  <!-- Fundamentación -->
+  <section id="fundamentacion" class="color3 py-16 px-6">
+    <h2 class="text-3xl font-semibold text-center color1 mb-8">💡 Fundamentación</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="bg-white p-6 rounded-xl shadow">Modelo de economía circular basado en la reutilización.</div>
+      <div class="bg-white p-6 rounded-xl shadow">Campañas de sensibilización en el campus.</div>
+      <div class="bg-white p-6 rounded-xl shadow">Diagnóstico y propuesta a futuro para ampliar la iniciativa.</div>
+    </div>
+  </section>
+
+  <!-- Objetivos -->
+  <section id="objetivos" class="py-16 px-6">
+    <h2 class="text-3xl font-semibold text-center color1 mb-8">🎯 Objetivos</h2>
+    <div class="bg-white p-6 rounded-xl shadow max-w-4xl mx-auto">
+      <ul class="list-disc ml-6 space-y-2">
+        <li>Concientizar sobre el consumo sostenible.</li>
+        <li>Diseñar materiales educativos llamativos.</li>
+        <li>Recolectar productos reutilizables en la universidad.</li>
+        <li>Proponer una expansión institucional futura.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Cronograma -->
+  <section id="cronograma" class="color3 py-16 px-6">
+    <h2 class="text-3xl font-semibold text-center color1 mb-8">🗓️ Cronograma</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div class="bg-white p-6 rounded-xl shadow">🔹 Diagnóstico inicial<br>🔹 Campañas educativas<br>🔹 Recolección en campus</div>
+      <div class="bg-white p-6 rounded-xl shadow text-center text-gray-500">Espacio para imagen del cronograma 📊</div>
+    </div>
+  </section>
+
+  <!-- Impacto -->
+  <section id="impacto" class="py-16 px-6">
+    <h2 class="text-3xl font-semibold text-center color1 mb-8">🌟 Impacto Esperado</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="bg-white p-6 rounded-xl shadow">Menor generación de residuos 🗑️</div>
+      <div class="bg-white p-6 rounded-xl shadow">Conciencia ambiental colectiva 🌿</div>
+      <div class="bg-white p-6 rounded-xl shadow">Cambio de hábitos estudiantiles a largo plazo 🔁</div>
+    </div>
+  </section>
+
+  <!-- Evidencia y Análisis -->
+  <section id="evidencia" class="color3 py-16 px-6">
+    <h2 class="text-3xl font-semibold text-center color1 mb-8">📂 Evidencia y Análisis</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div class="bg-white p-6 rounded-xl shadow">Se recopilaron datos, imágenes y testimonios de estudiantes que participaron en pruebas piloto del intercambio.</div>
+      <div class="bg-white p-6 rounded-xl shadow text-center text-gray-500">Espacio para evidencia visual 📸</div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="py-16 px-6 text-center">
+    <h2 class="text-3xl font-semibold color1 mb-4">📬 ¡Contáctanos!</h2>
+    <p class="mb-4">¿Dudas, ideas o quieres unirte? ¡Escríbenos! 💌</p>
+    <a href="mailto:contacto@universidadcentral.edu.co" class="inline-block px-6 py-3 text-white font-semibold rounded-xl shadow-md color4 hover:opacity-80 transition">
+      Enviar correo
+    </a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-6 text-sm text-gray-500 border-t">
+    🌿 Proyecto EcoTrade – Universidad Central 2025
+  </footer>
+</body>
+</html>
